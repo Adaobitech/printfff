@@ -24,7 +24,7 @@ int printf_HEX(va_list val)
 
 	for (i = 0; i < count; i++)
 	{
-		array[i] = temp % 16;;
+		array[i] = temp % 16;
 		temp /= 16;
 	}
 	for (i = count - 1; i >= 0; i--)
