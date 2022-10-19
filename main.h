@@ -25,7 +25,7 @@ int printf(const char *format, ...);
 int _putchar(char c);
 int printf_pointer(va_list val);
 int printf_hex_aux(unsigned long int num);
-int print_HEX_aux(unsigned int num);
+int printf_HEX_aux(unsigned int num);
 int printf_exclusive_string(va_list val);
 int printf_HEX(va_list val);
 int printf_hex(va_list val);
